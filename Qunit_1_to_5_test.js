@@ -20,3 +20,13 @@ QUnit.test("sum_numbers" , function(assert) {
 	assert.equal(sum_numbers(5), 15);
 });
 
+QUnit.test("length", function(assert){
+	assert.equal(length("nurha"), 5);
+});
+QUnit.test("upper", function(assert){
+	assert.equal(upper("nurha"), "NURHA");
+});
+QUnit.test("reverse test", function(assert){
+	assert.equal(reverse("ahrun!"));
+});
+
