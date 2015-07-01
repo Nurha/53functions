@@ -3,7 +3,7 @@ function hello_joe(name) {
 		return "Hello!";
 	}
 	else{
-		return "Hello " + name + "!";
+		return "Hello, " + name + "!";
 	}
 };
 

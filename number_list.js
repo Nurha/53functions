@@ -1,7 +1,7 @@
 //function number_list (n){
 
-//for (var counter = 1; counter < n; counter++) {
-	//console.log(counter);
+//for (var counter = 1; counter <= n; counter++) {
+
  //}; 
 //return counter
 //}
@@ -17,3 +17,7 @@ var j = [];
 	}
 	return j;
 };
+//push() can append one or more elements to the end of an array
+// pop() pulls the last element off of the given array and returns it
+//unshift() prepend one or more elements to the beginning of an array.
+//shift() pulls the first element off of the given array and returns it
