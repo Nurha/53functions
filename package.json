@@ -1,0 +1,22 @@
+{
+  "name": "53functions",
+  "version": "0.0.0",
+  "description": "You can think of 53 functions as small bite size programming challanges which aim to prepare coders to do Code Katas. Each coder will have to clone this repository and start to commit their implementation of the functions. A central CI instance will run their functions and give them a score for each function based on how many tests are passing. These functions are not to be completed on one sitting, but is to be completed on the coders own time.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nurha/53functions.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Nurha/53functions/issues"
+  },
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "gulp-qunit": "~1.2.1"
+  }
+}
