@@ -1,13 +1,13 @@
-var low = 1;
-var high = 1;
-for(loop numbers){
-	if (number > high){
-		high = number;
-	}
-	if (low = 1) {
-		low = high;
-	}
-	if (number < low) {
-		low = number;
-	}
-}
+// var low = 1;
+// var high = 1;
+// for(loop numbers){
+// 	if (number > high){
+// 		high = number;
+// 	}
+// 	if (low = 1) {
+// 		low = high;
+// 	}
+// 	if (number < low) {
+// 		low = number;
+// 	}
+// }
