@@ -36,12 +36,13 @@ QUnit.test("hello_list", function(assert){
  QUnit.test("high_low", function() {
      var array = [1,2,3,4];	
      var result = "max =4min =1";
-
-     deepEqual(high_low(array), result);
-    
- });
+	deepEqual(high_low(array), result);
+});
 
  QUnit.test("count_words" , function(assert){
-
-assert.equal(count_words("good morning") ,2);
+ 	assert.equal(count_words("good morning") ,2);
 });
+
+QUnit.test("sum_word_len" , function(assert){
+ 	assert.equal(sum_word_len("good morning"),11);
+}); 
