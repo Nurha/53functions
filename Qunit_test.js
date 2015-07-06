@@ -33,10 +33,15 @@ QUnit.test("hello_list", function(assert){
 	assert.equal(hello_list(3), "hello world,hello world,hello world");
 });
 
- QUnit.test("high_low()", function() {
+ QUnit.test("high_low", function() {
      var array = [1,2,3,4];	
      var result = "max =4min =1";
 
      deepEqual(high_low(array), result);
     
- })
+ });
+
+ QUnit.test("count_words" , function(assert){
+
+assert.equal(count_words("good morning") ,2);
+});
