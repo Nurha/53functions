@@ -44,5 +44,15 @@ QUnit.test("hello_list", function(assert){
 });
 
 QUnit.test("sum_word_len" , function(assert){
- 	assert.equal(sum_word_len("good morning"),11);
+ 	assert.equal(sum_word_len("good morning"),12);
 }); 
+ // QUnit.test('longest_word()', function(assert) {
+ //    var str = "good morning"; 
+ //     assert.equal(longest_word(str), "morning: 7");
+      
+ // });
+
+// QUnit.test("shortest_word" , function(assert){
+//  	assert.equal(shortest_word("guns and roses"), ["and", 3].toString());
+// }); 
+
