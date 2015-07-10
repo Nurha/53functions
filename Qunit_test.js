@@ -47,17 +47,14 @@ QUnit.test("sum_word_len" , function(assert){
  	assert.equal(sum_word_len("ho ho ho"), 6);
 });  
  QUnit.test("longest_word" , function(assert) {
-    var results =  longest_word("south morning africans "); 
-     assert.deepEqual(results,["africans", 8]);
+    var results =  longest_word("I love waking up to music in the morning"); 
+     assert.deepEqual(results,["morning", 7]);
       
  });
-// QUnit.test("shortest_word" , function(assert){
-//  	var result = shortest_word("morning africans good");
-//  	assert.deepEqual(result,["good", 4]);
-// }); 
-test("shortest_word", function(assert) {
-    var result = "good morning africans";   
-	assert.equal(shortest_word(result), "good: 4");
+
+QUnit.test("shortest_word", function(assert) {
+    var result = "Is it true that you are going? When will I go?";   
+	assert.equal(shortest_word(result), "I: 1");
     
 });
 
