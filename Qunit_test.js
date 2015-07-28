@@ -58,3 +58,22 @@ QUnit.test("shortest_word", function(assert) {
     
 });
 
+QUnit.test("word_length", function(assert){
+	var result = word_length("good morning africa");
+	var expected = [6, 5];
+	assert.equal(result.toString(), expected.toString());
+});
+
+QUnit.test("avg", function(assert){
+	var result = avg("good morning africa")
+	var expected = [6];
+	assert.equal(result.toString(), expected.toString());
+});
+
+QUnit.test("starts", function(assert){
+	var sentance = "We were at woolworth";
+	assert.equal(starts(sentance), "w");
+});
+
+
+
