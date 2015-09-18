@@ -75,5 +75,13 @@ QUnit.test("starts", function(assert){
 	assert.equal(starts(sentance), "w");
 });
 
+QUnit.test("ends", function(assert){
+	var sentance = "We were at the sea";
+	assert.equal(ends(sentance), "e");
+});
+QUnit.test("occurs_most", function(assert){
+	var sentance = occurs_most("hello world");
+	assert.equal(sentance, "l");
+});
 
 
