@@ -5,7 +5,17 @@
 //     for (x = 0; x < splitSentance.length; x++) {
 
 //     };
-};function occurs_most(str) {
+// };
+
+
+
+
+
+
+
+
+
+function occurs_most(str) {
     str = str.replace(/\s+/g, '');
     var splitStr = str.split("");
     var firstChar = [];
