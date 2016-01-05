@@ -9,16 +9,3 @@ function word_length(sentance){
 	senAvg = wordSum/spltSen.length;
 	return [Math.ceil(senAvg), Math.floor(senAvg)];
 };
-// var word_length = function(sentence){
-	
-// 	var words = sentence.split(' ');
-//         var sum = 0;
-//         var numWords = words.length;
-
-// 	words.forEach(function(word){
-// 		sum+=(word.split('').length);
-//         })
-        
-//         sum = sum/numWords; 
-//           return [Math.ceil(sum),Math.floor(sum)];  
-// };

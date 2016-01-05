@@ -7,9 +7,5 @@ function hello_joe(name) {
 	}
 };
 
-//function hello_joe(Joe){
-
-	//return "Hello Joe";
-//};
 
 

@@ -1,39 +1,44 @@
+// function occurs_most(sentance){
+//     sentance = sentance.replace(/\s/g); //replaces spaces
+//     var splitSentance = sentance.split("");
 
-function occurs_most(str) {
+//     for (x = 0; x < splitSentance.length; x++) {
 
-    var splitStr = str.split(" ");
-    var mostChar = [];
+//     };
+};function occurs_most(str) {
+    str = str.replace(/\s+/g, '');
+    var splitStr = str.split("");
+    var firstChar = [];
     var letterMap = {};
+    var letter = "";
     var count = 0;
     var mostLetter = "";
     
     for(var x = 0; x < splitStr.length; x++){
-        mostChar.push((splitStr[x]).toLowerCase());
+        firstChar.push((splitStr[x]).toUpperCase());
         
     }
 
-    for(var i = 0; i < mostChar.length; i++){
-        for (var y = 0; y < mostChar.length; y++){
-            if(mostChar[i] === mostChar[y]){
+    for(var i = 0; i < firstChar.length; i++){
+        for (var y = 0; y < firstChar.length; y++){
+            if(firstChar[i] === firstChar[y]){
                 count++;
            
-              letterMap[mostChar[i]] = count;
+              letterMap[firstChar[i]] = count;
                
-            };
+            }
 
 
-        };
-    };
-    var max = 0;
-    //var x = x;
+        }
+        count = 0;
+    }
+    var max = 0, x;
     for( x in letterMap) {
         if( letterMap[x] > max){ 
             max = letterMap[x];
             mostLetter = x;
-        };
-    };
+        }
+    }
     return mostLetter;
-};
-	
+}
 
-    

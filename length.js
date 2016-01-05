@@ -1,4 +1,4 @@
-function length(nurha){
+function length(string){
 
-	return nurha.length;
+	return string.length;
 };

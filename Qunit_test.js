@@ -13,7 +13,7 @@ QUnit.test("hello_joe", function(assert){
 });
 
 QUnit.test("number_list", function(assert){
-	assert.equal(number_list(10),[1,2,3,4,5,6,7,8,9,10].toString());
+	assert.equal(number_list(5),[1,2,3,4,5].toString());
 });
 
 QUnit.test("sum_numbers" , function(assert) {
@@ -80,8 +80,7 @@ QUnit.test("ends", function(assert){
 	assert.equal(ends(sentance), "e");
 });
 QUnit.test("occurs_most", function(assert){
-	var sentance = occurs_most("hello world");
-	assert.equal(sentance, "l");
+	var sentance = occurs_most("I love the smell of coffee in the morning");
+	assert.equal(occurs_most(sentance), "E");
 });
-
 
