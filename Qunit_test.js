@@ -34,7 +34,7 @@ QUnit.test("hello_list", function(assert){
 });
 
  QUnit.test("high_low", function() {
-     var array = [1,2,3,4];	
+     var array = [1,2,3,4];
      var result = "max =4min =1";
 	deepEqual(high_low(array), result);
 });
@@ -45,17 +45,17 @@ QUnit.test("hello_list", function(assert){
 
 QUnit.test("sum_word_len" , function(assert){
  	assert.equal(sum_word_len("ho ho ho"), 6);
-});  
+});
  QUnit.test("longest_word" , function(assert) {
-    var results =  longest_word("I love waking up to music in the morning"); 
+    var results =  longest_word("I love waking up to music in the morning");
      assert.deepEqual(results,["morning", 7]);
-      
+
  });
 
 QUnit.test("shortest_word", function(assert) {
-    var result = "Is it true that you are going? When will I go?";   
+    var result = "Is it true that you are going? When will I go?";
 	assert.equal(shortest_word(result), "I: 1");
-    
+
 });
 
 QUnit.test("word_length", function(assert){
@@ -83,4 +83,3 @@ QUnit.test("occurs_most", function(assert){
 	var sentance = occurs_most("I love the smell of coffee in the morning");
 	assert.equal(occurs_most(sentance), "E");
 });
-

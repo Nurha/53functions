@@ -6,6 +6,6 @@ function hello_joe(name) {
 		return "Hello, " + name + "!";
 	}
 };
-
-
-
+console.log(hello_joe("Nurha"));
+console.log(hello_joe("Bob"));
+console.log(hello_joe("Joe"));
