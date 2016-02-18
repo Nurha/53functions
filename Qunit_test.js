@@ -83,3 +83,8 @@ QUnit.test("occurs_most", function(assert){
 	var sentance = occurs_most("I love the smell of coffee in the morning");
 	assert.equal(occurs_most(sentance), "E");
 });
+
+QUnit.test("occurs_least", function(assert){
+  var string = occurs_least("nooo nooo yooo");
+  assert.equal(occurs_least(string),"y" )
+});
