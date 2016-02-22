@@ -93,3 +93,8 @@ QUnit.test("uppercase_letters", function(assert){
   var str = uppercase_letters("Happy New Years");
   assert.equal(uppercase_letters(str), "H N Y");
 });
+
+QUnit.test("lowercase_letters",function(assert){
+  var string = lowercase_letters("aPPLe A DaY");
+  assert.equal(lowercase_letters(str), "a e a");
+});
