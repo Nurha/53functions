@@ -86,5 +86,10 @@ QUnit.test("occurs_most", function(assert){
 
 QUnit.test("occurs_least", function(assert){
   var string = occurs_least("nooo nooo yooo");
-  assert.equal(occurs_least(string),"y" )
+  assert.equal(occurs_least(string),"y");
+});
+
+QUnit.test("uppercase_letters", function(assert){
+  var str = uppercase_letters("Happy New Years");
+  assert.equal(uppercase_letters(str), "H N Y");
 });
