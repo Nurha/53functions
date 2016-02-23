@@ -90,11 +90,26 @@ QUnit.test("occurs_least", function(assert){
 });
 
 QUnit.test("uppercase_letters", function(assert){
-  var str = uppercase_letters("Happy New Years");
-  assert.equal(uppercase_letters(str), "H N Y");
+assert.deepEqual(uppercase_letters('60 YeArS ToDay'), [ 'Y', 'A', 'S', 'T', 'D' ]);
 });
 
 QUnit.test("lowercase_letters",function(assert){
-  var string = lowercase_letters("aPPLe A DaY");
-  assert.equal(lowercase_letters(str), "a e a");
+  var str = "6 aPPLEs A DaY";
+  assert.deepEqual(lowercase_letters(str), [ 'a', 's', 'a' ]);
+});
+
+QUnit.test('square_stars()', function(assert) {
+    assert.equal(square_stars(4),"****\n****\n****\n****\n");
+});
+
+QUnit.test('square()', function(assert){
+  assert.equal(square('#'),'\n####\n####\n####\n####');
+ });
+
+ QUnit.test('square_param()', function(assert){
+   assert.equal(square_param('#',4),'\n#####\n#####\n#####\n#####');
+ });
+
+QUnit.test('tri()', function(assert){
+  assert.equal(tri(5),'\n*\n**\n***\n****\n');
 });

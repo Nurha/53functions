@@ -1,3 +1,5 @@
 function uppercase_letters(string){
-    return string.replace(/[a-z]/g, '');
+    var str = string.match(/[A-Z]/g, '');
+    return str;
 };
+console.log(uppercase_letters('60 YeArS ToDay'));
