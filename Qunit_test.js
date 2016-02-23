@@ -1,10 +1,10 @@
 QUnit.test( "helloWorld", function( assert) {
   assert.equal( helloWorld(), "hello world!" );
 });
+
 QUnit.test( "hello_uppercase", function( assert) {
   assert.equal( hello_uppercase("nurha"),"Hello, NURHA!" );
 });
-
 
 QUnit.test("hello_joe", function(assert){
 	assert.equal(hello_joe("Joe"), "Hello!")
@@ -23,12 +23,15 @@ QUnit.test("sum_numbers" , function(assert) {
 QUnit.test("length", function(assert){
 	assert.equal(length("nurha"), 5);
 });
+
 QUnit.test("upper", function(assert){
 	assert.equal(upper("nurha"), "NURHA");
 });
+
 QUnit.test("reverse", function(assert){
 	assert.equal(reverse("nurha"), "ahrun");
 });
+
 QUnit.test("hello_list", function(assert){
 	assert.equal(hello_list(3), "hello world,hello world,hello world");
 });
@@ -46,6 +49,7 @@ QUnit.test("hello_list", function(assert){
 QUnit.test("sum_word_len" , function(assert){
  	assert.equal(sum_word_len("ho ho ho"), 6);
 });
+
  QUnit.test("longest_word" , function(assert) {
     var results =  longest_word("I love waking up to music in the morning");
      assert.deepEqual(results,["morning", 7]);
