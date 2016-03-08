@@ -103,7 +103,7 @@ QUnit.test("lowercase_letters",function(assert){
 });
 
 QUnit.test('square_stars()', function(assert) {
-    assert.equal(square_stars(4),"****\n****\n****\n****\n");
+    assert.equal(square_stars(4),'****\n****\n****\n****\n');
 });
 
 QUnit.test('square()', function(assert){
@@ -116,4 +116,8 @@ QUnit.test('square()', function(assert){
 
 QUnit.test('tri()', function(assert){
   assert.equal(tri(5),'\n*\n**\n***\n****\n');
+});
+
+QUnit.test('tri_char()', function(assert){
+  assert.equal(tri_char('*'),'\n*\n**\n***\n****\n');
 });

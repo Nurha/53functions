@@ -13,3 +13,4 @@ var list =[];
 			}
 			return list;
 	}
+	console.log(hello_list(3));

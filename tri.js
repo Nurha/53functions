@@ -1,10 +1,8 @@
 function tri(number){
   var str = '';
   var count = 0;
-  for(x=0; x<number; x++){
-    //console.log(x);
+  for(x=0; x < number; x++){
     for(y=0; y<count; y++){
-      console.log(y);
         str += '*';
     };
     count++;
