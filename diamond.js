@@ -2,7 +2,8 @@ function diamond(number){
   var string = '';
   var count = 0;
 
-  for(x=0; x<=number; x++){
+  for(x=1; x<=number; x++){
+    string += ' ';
     for(y=0; y<count; y++){
       string += '*';
     };
@@ -11,10 +12,11 @@ function diamond(number){
   };
 
   for(z=0; z<=number; z++){
+    string += ' ';
       for(w=0; w<count; w++){
         string += '*';
       };
-      count--
+      count--;
       string += '\n';
   };
   return string;

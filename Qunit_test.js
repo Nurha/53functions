@@ -125,3 +125,7 @@ QUnit.test('tri_char()', function(assert){
 QUnit.test('tri_param_base()', function(assert){
   assert.equal(tri_param_base('@',4), '\n@\n@@\n@@@\n@@@@\n')
 });
+
+QUnit.test('diamond()', function(assert){
+  assert.equal(diamond('*',5),'\n*\n**\n***\n****\n*****\n****\n***\n**\n*\n');
+});
