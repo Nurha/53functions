@@ -127,5 +127,5 @@ QUnit.test('tri_param_base()', function(assert){
 });
 
 QUnit.test('diamond()', function(assert){
-  assert.equal(diamond('*',5),'\n*\n**\n***\n****\n*****\n****\n***\n**\n*\n');
+  assert.equal(diamond(5),"\n    * \n   * * \n  * * * \n * * * * \n* * * * * \n * * * * \n  * * * \n   * * \n    * \n");
 });
