@@ -127,5 +127,9 @@ QUnit.test('tri_param_base()', function(assert){
 });
 
 QUnit.test('diamond()', function(assert){
-  assert.equal(diamond(5),"\n    * \n   * * \n  * * * \n * * * * \n* * * * * \n * * * * \n  * * * \n   * * \n    * \n");
+  assert.equal(diamond(5),'\n    * \n   * * \n  * * * \n * * * * \n* * * * * \n * * * * \n  * * * \n   * * \n    * \n');
+});
+
+QUnit.test('diamond_star()', function(assert){
+  assert.equal(diamond_star('*'), '\n    * \n   * * \n  * * * \n * * * * \n* * * * * \n * * * * \n  * * * \n   * * \n    * \n');
 });
