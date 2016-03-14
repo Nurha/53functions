@@ -133,3 +133,7 @@ QUnit.test('diamond()', function(assert){
 QUnit.test('diamond_star()', function(assert){
   assert.equal(diamond_star('*'), '\n    * \n   * * \n  * * * \n * * * * \n* * * * * \n * * * * \n  * * * \n   * * \n    * \n');
 });
+
+QUnit.test('diamond_char_base()', function(assert){
+    assert.equal(diamond_char_base('*', 5), '\n    * \n   * * \n  * * * \n * * * * \n* * * * * \n * * * * \n  * * * \n   * * \n    * \n');
+});
