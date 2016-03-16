@@ -141,3 +141,11 @@ QUnit.test('diamond_char_base()', function(assert){
 QUnit.test('addNumber()',function(assert){
   assert.equal(addNumber(10, 15), 25);
 });
+
+QUnit.test('divideNumbers()', function(assert){
+  assert.equal(divideNumbers(22, 11), 2);
+});
+
+QUnit.test('calc_all()', function(assert){
+  assert.equal(calc_all('+', 5, 5), 10);
+});
