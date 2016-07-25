@@ -11,3 +11,10 @@ function tri(number){
   return str;
 };
 console.log(tri(5));
+
+// function tri_char() {
+//   for(triangle= '#'; triangle.length<=8; triangle+='#') {
+//     console.log(triangle);
+//   }
+// }
+// console.log(tri_char());

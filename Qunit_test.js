@@ -149,3 +149,7 @@ QUnit.test('divideNumbers()', function(assert){
 QUnit.test('calc_all()', function(assert){
   assert.equal(calc_all('+', 5, 5), 10);
 });
+
+// QUnit.test('calc_chain()', function(assert) {
+//   assert.equal(calc_chain(), 5);
+// });
